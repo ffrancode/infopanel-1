@@ -14,6 +14,15 @@
 
 ![build status](https://github.com/habibrehmansg/infopanel/actions/workflows/dotnet-desktop.yml/badge.svg?branch=main) 
 
+## 🛠 ffrancode Fork Features (Visual Improvements)
+
+This specific fork is built on top of the `thermalright-only` experimental branch with the following custom UI/UX enhancements permanently integrated:
+
+- **Hard-locked 800x600 Startup Resolution**: Prevents the application from launching infinitely oversized on small monitors regardless of previous cache files.
+- **Responsive Layout Collapsing**: The main left-side `NavigationView` pane defaults to `LeftMinimal`, automatically tucking away horizontally to maximize screen space.
+- **Unrestricted Window Resizing**: Added `CanResizeWithGrip` capability to manually shrink the window boundaries cleanly.
+- **Global Mouse Wheel Scrolling**: Fixed deep-nested framework blocks. The mouse wheel now scrolls flawlessly through large lists of plugins and USB Panels across the entire application interface.
+
 ## Features
 
 - **Multiple Data Sources**: 
